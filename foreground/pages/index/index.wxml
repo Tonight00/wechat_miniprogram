@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<!--
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+-->
+
+
+<view class="container"> 
+ 
+ <view class="login-icon"> 
+ <!--<image class="login-img" src="2.jpg"></image> -->
+ </view> 
+ <view class="login-from"> 
+ 
+ <!--账号-->
+ <view class="inputView"> 
+  <image class="nameImage" src="" alt = ""></image> 
+  <label class="loginLab">账号</label> 
+  <input class="inputText" placeholder="请输入账号" bindinput="usernameInput" value="{{usernameValue}}" /> 
+ </view> 
+ <view class="line"></view> 
+ 
+ <!--密码-->
+ <view class="inputView"> 
+  <image class="keyImage" src="" alt = ""></image> 
+  <label class="loginLab">密码</label> 
+  <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" value="{{passwordValue}}" /> 
+ </view> 
+ 
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" type="primary" bindtap="sign" style="width:130px">登录</button> 
+ </view> 
+ <view > 
+  <button class = "loginBtn2" style="background-color:red;width:130px" type="primary" bindtap="login">注册</button> 
+ </view> 
+ 
+  </view>
+  <view style="width:100%;margin:0 auto;font-size:12px;text-align:center;position:absolute;left:0px;bottom:1%;color:grey">
+  © 2020-2020 Nice, BUAA. 
+</view>
+</view>

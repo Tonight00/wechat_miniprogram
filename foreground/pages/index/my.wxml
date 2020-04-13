@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<scroll-view>
+
+  <view class="waveWrapper waveAnimation" style='background-color:{{evening}}'>
+    <view class="waveWrapperInner bgTop">
+      <image class="wave waveTop" src="../../images/wave-top.png"></image>
+    </view>
+    <view class="waveWrapperInner bgMiddle">
+      <image class="wave waveMiddle" src="../../images/wave-mid.png"></image>
+    </view>
+    <view class="waveWrapperInner bgBottom">
+      <image class="wave waveBottom" src="../../images/wave-bot.png"></image>
+    </view>
+  </view>
+
+<view style="margin:0 3%;background:white;border:1em solid white; border-radius:5%;margin-top:5%">
+  <view class='info-view'>
+    <view class='info-left'>
+      <view class='title'>
+        <view style="display:inline-block;width:100%">{{username}}</view>
+      </view>
+      <view class='brief'>一个有梦想的年轻人</view>
+    </view>
+   
+  </view>
+
+
+ 
+  <view class='bottom-view'>
+  <i-cell title="余额" value="{{assets}}"></i-cell>
+  <i-cell title="利率" value="{{rates}}"></i-cell>
+  <i-cell title="利息" label="利息=利率*余额" value="{{profit}}"></i-cell>
+  <!--
+    <view class='bottom-list'>
+
+      <block wx:for="{{operateList}}" wx:key="item.title">
+        <navigator open-type='navigate' url='{{item.url}}'>
+          <view class="kind-list-item">
+            <image src='{{item.iconSrc}}' class='icon'></image>
+            <view class='list-text'>{{item.title}}</view>
+            <image src='../../images/right.png' class='right-circle icon'></image>
+          </view>
+        </navigator>
+        <view class='line'></view>
+      </block>
+      
+    </view>
+     -->
+  </view>
+  </view>
+
+<view style="width:96%;display:flex;margin:10% auto 0;">
+ <view style="flex:1;"> 
+  <button class = "loginBtn2" style="background-color:red;width:auto" type="primary" bindtap="cash_in">充值</button> 
+ </view> 
+  <view style="flex:1;margin:0 3%"> 
+  <button class = "loginBtn2" style="background-color:green;width:auto" type="primary" bindtap="cash_out">提现</button> 
+ </view> 
+ <view style ="flex:1;" > 
+  <button class = "loginBtn2" style="background-color:#338de6;width:auto" type="primary" >
+    <navigator hover-class="navigator-hover" target="miniProgram" open-type='exit'>退出</navigator>
+  </button> 
+ </view> 
+</view>
+</scroll-view>
+
+<view style="width:100%;margin:0% auto;font-size:12px;text-align:center;position:absolute;left:0px;bottom:0px">
+    <view style="color:#338de6;marign-top:3%;">《免责声明》</view>
+ © 2020-2020 Nice, BUAA. 
+</view>

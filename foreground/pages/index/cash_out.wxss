@@ -1,0 +1,15 @@
+Page {
+  height: 100%;
+  background-color: #f1f1f1
+}
+
+.line{
+  margin: 0 auto;
+  height: 1px;
+  /* background-color: #D8D8D8;*/
+  background-color: black;
+}
+
+.p{
+  background: white;
+}

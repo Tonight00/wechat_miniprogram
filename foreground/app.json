@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/user",
+    "pages/index/my",
+    "pages/index/cash_in",
+    "pages/index/cash_out"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "ATM存取系统",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

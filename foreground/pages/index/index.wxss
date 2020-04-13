@@ -1,0 +1,127 @@
+/**index.wxss**/
+/*
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+*/
+page{ 
+  height: 100%; 
+  width:100%;
+  background: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1812495981,2655128108&fm=26&gp=0.jpg)  -95px -25px ;
+
+ } 
+  
+ .container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  height:100%;
+  width:100%;
+ } 
+  
+ /*登录图片*/
+ .login-icon{ 
+  flex: none; 
+  /*
+    background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1812495981,2655128108&fm=26&gp=0.jpg);
+    height:1000%;
+    width:100%;
+    */
+ } 
+  
+ .login-img{ 
+  margin-top: 5%; 
+  height: 200rpx;
+  width: 750rpx;
+ } 
+  
+ /*表单内容*/
+ .login-from { 
+  margin-top: 70%; 
+  flex: auto; 
+  height:100%; 
+ } 
+  
+ .inputView { 
+  /* background-color: #fff;  */
+  line-height: 45px; 
+  border-radius:20px;
+   border:1px solid #999999;
+ } 
+  
+ /*输入框*/
+ .nameImage, .keyImage { 
+  margin-left: 22px; 
+  width: 18px; 
+  height: 16px
+ } 
+  
+ .loginLab { 
+  margin: 15px 15px 15px 10px; 
+  color: white; 
+  font-size: 14px
+
+ } 
+  
+ .inputText { 
+  flex: block; 
+  float: right; 
+
+  line-height: 50%;
+  text-align: left; 
+  margin-right: 22px; 
+  margin-top: 15px;
+  color: #cccccc; 
+  font-size: 14px
+ } 
+ .line { 
+  margin-top: 20px; 
+ } 
+  
+ /* .line { 
+  width: 100%; 
+  height: 1px; 
+  background-color: #cccccc; 
+  margin-top: 1px; 
+ }  */
+  
+ /*按钮*/
+ .loginBtnView { 
+  width: 100%; 
+  height: auto; 
+  /* background-color:#DCDCDC;  */
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  padding-bottom: 0px; 
+ } 
+  
+ .loginBtn { 
+  width: 90%; 
+  margin-top: 30px; 
+  border-radius:10px;
+ }
+ .loginBtn2 { 
+  width: 90%; 
+  margin-top: 15px; 
+  border-radius:10px;
+  background-color: red;
+}

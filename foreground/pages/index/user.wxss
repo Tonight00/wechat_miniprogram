@@ -1,0 +1,32 @@
+/* pages/index/logs.wxss */
+page{
+  height:115%;
+  background: #eee;
+}
+.p{
+  background: white;
+}
+.line{
+  margin: 0 auto;
+  height: 1px;
+  background-color: #D8D8D8;
+}
+.bar {
+  width: 100%;
+  margin:3% auto;
+  text-align:center;
+}
+.p2{
+  font-size: 12px;
+  color: grey;
+  padding: 0px 16px; 
+}
+.i {
+  flex:1;
+  line-height: 1.6;
+  padding: 4px 0;
+  min-height: 22px;
+  height: auto;
+  font-size:14px;
+  margin-left: 6%;
+}

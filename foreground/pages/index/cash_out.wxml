@@ -1,0 +1,13 @@
+<view class = "p">
+<i-panel class ="p" title="金额">
+    <input style="margin-left:5%" value="{{ m }}" placeholder="请输入金额" bindinput="tap4"/>
+    <view class="line"></view>
+</i-panel>
+<view style ="height:10px"></view>
+<button class = "loginBtn2" style="background-color:green;width:auto" type="primary" bindtap="cash_in">提现</button> 
+</view>
+
+<view style="width:100%;margin:0% auto;font-size:12px;text-align:center;position:absolute;left:0px;bottom:0px">
+    <view style="color:#338de6;marign-top:3%;">《免责声明》</view>
+ © 2020-2020 Nice, BUAA. 
+</view>

@@ -1,0 +1,31 @@
+<!--pages/index/logs.wxml-->
+<view style="margin:0 3%;background:white;border:1em solid white; border-radius:5%;margin-top:5%">
+<view class="bar">用户注册</view>
+<i-panel class="p" title="用户名">
+    <input class="i" value="{{ username }}" placeholder="请输入用户名" bindinput="tap1" />
+    <view class="line"></view>
+</i-panel>
+
+<i-panel class="p" title="身份证号">
+    <input class="i" value="{{id}}" placeholder="请输入身份证号" bindinput="tap2"  />
+    <view class="line"></view>
+</i-panel>
+<i-panel class ="p" title="手机号">
+    <input class = "i" value="{{tel}}" placeholder="请输入手机号" bindinput="tap3" />
+    <view class="line"></view>
+</i-panel>
+<i-panel class ="p" title="密码">
+    <input class = "i" value="{{password}}" password="true" placeholder="请输入密码" bindinput="tap4" />
+    <view class="line"></view>
+</i-panel>
+<i-panel class ="p" title="确认密码">
+    <input class = "i" value='{{password2}}' password= "true"  placeholder="请再次密码" bindinput="tap5" />
+    <view class="line"></view>
+</i-panel>
+<view class="p2">密码长度不小于8位</view> 
+<button class="loginBtn" type="primary" bindtap="sign_in" style="width:100%;margin-top:3%">注册</button> 
+</view>
+<view style="width:100%;margin:0% auto;font-size:12px;text-align:center;position:absolute;left:0px;bottom:-15%">
+    <view style="color:#338de6;marign-top:0%;">{{lt}}这是一个假链接{{gt}}</view>
+ © 2020-2020 Nice, BUAA. 
+</view>

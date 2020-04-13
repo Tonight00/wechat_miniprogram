@@ -1,0 +1,21 @@
+
+CREATE DATABASE	db2;
+USE db2;
+CREATE TABLE LOG (
+   id INT PRIMARY KEY AUTO_INCREMENT,
+   `name` VARCHAR(50) NOT NULL,
+   `money`  DECIMAL DEFAULT 1200,
+    `type` INT NOT NULL,
+    `date` DATETIME DEFAULT NOW()
+);  
+CREATE TABLE 账户表 (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  `name` VARCHAR(50),
+  `password` VARCHAR(50),
+   assets DECIMAL ,
+   rates DECIMAL DEFAULT 0.1,
+   dates DATETIME DEFAULT NOW(),
+   pid  VARCHAR(50),
+   tel VARCHAR(50)
+ );
+
