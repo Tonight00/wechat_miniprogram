@@ -23,11 +23,11 @@
 
 ### 二、项目效果图
 
-![image-20200413100940184](C:\Users\联想\AppData\Roaming\Typora\typora-user-images\image-20200413100940184.png)
+![image](https://github.com/Tonight00/image_repo/blob/master/wechat_1.png)
 
 ### 三、活动图
 
-​								![image-20200413101032738](C:\Users\联想\AppData\Roaming\Typora\typora-user-images\image-20200413101032738.png)
+​								![image](https://github.com/Tonight00/image_repo/blob/master/wechat_2.png)
 
 ### 四、项目架构
 
